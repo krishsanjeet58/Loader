@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border-top: 10px solid palevioletred;
+    border-left: 10px solid palegreen;
+    border-right: 10px solid pink;
+    border-bottom: 10px solid skyblue;
+    border-radius: 50%;
+    animation: rotation 500ms linear  infinite  ;
+}
+
+@keyframes rotation{
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
